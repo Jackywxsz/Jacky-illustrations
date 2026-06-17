@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Jacky 小芽哥形态规范 v1</title>
+  <desc id="desc">白色豆豆体型，头顶嫩芽，细手细腿，可选小墨镜，知识工位角色。</desc>
+  <rect width="1600" height="900" fill="#fff"/>
+  <style>
+    .line{fill:none;stroke:#111;stroke-width:7;stroke-linecap:round;stroke-linejoin:round}
+    .thin{fill:none;stroke:#111;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+    .green{fill:#d7ed57;stroke:#111;stroke-width:7;stroke-linecap:round;stroke-linejoin:round}
+    .accent{fill:none;stroke:#e8612c;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+    .blue{fill:none;stroke:#2f6fb3;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+    .note{font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif;font-size:30px;fill:#111}
+    .small{font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif;font-size:22px;fill:#555}
+  </style>
+
+  <text x="88" y="84" class="note">Jacky 小芽哥：白色豆豆体型 + 头顶嫩芽 + 可选墨镜</text>
+  <text x="88" y="123" class="small">潇洒但不油腻；有活力但不幼稚；永远服务正文里的核心动作。</text>
+
+  <g transform="translate(185 165)">
+    <path d="M205 42c-95 0-157 77-156 186 0 58-16 112 21 157 32 39 79 35 112 63 43 38 111 33 148-7 30-32 90-25 119-70 29-46 8-100 10-151 2-109-62-178-165-178z" fill="#fff" stroke="#111" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path class="line" d="M253 43c-3-39 1-72 14-100"/>
+    <path class="green" d="M265-49c-46-32-89-15-91 19-2 34 45 49 92 25z"/>
+    <path class="green" d="M274-48c43-39 90-25 91 11 1 33-43 51-91 30z"/>
+    <rect x="164" y="186" width="74" height="32" rx="13" fill="#111"/>
+    <rect x="259" y="184" width="74" height="32" rx="13" fill="#111"/>
+    <path class="thin" d="M238 201c9-6 14-6 22 0"/>
+    <path class="line" d="M219 286c34 25 82 23 113-5"/>
+    <path class="line" d="M74 290c-37 25-55 61-42 88 13 27 52 22 85-16"/>
+    <path class="line" d="M434 286c45 8 78 31 91 66"/>
+    <path class="line" d="M177 451c-17 54-8 92 22 98 29 6 50-26 57-87"/>
+    <path class="line" d="M319 448c21 54 16 91-13 101-30 10-56-20-69-84"/>
+    <path class="thin" d="M115 554c86 34 261 33 361-2" opacity=".25"/>
+    <path class="accent" d="M519 155c36 0 68 8 96 24"/>
+    <text x="640" y="185" class="note">潇洒哥</text>
+    <text x="640" y="218" class="small">小墨镜，松弛自信</text>
+    <path class="blue" d="M18 130c-35 12-62 29-83 52"/>
+    <text x="-162" y="194" class="note">知识工位</text>
+    <text x="-162" y="227" class="small">笔记本 / 电脑 / 内容块</text>
+    <path class="accent" d="M292-62c48-18 88-21 121-9"/>
+    <text x="432" y="-62" class="note">嫩芽</text>
+    <text x="432" y="-29" class="small">第一识别点</text>
+  </g>
+
+  <g transform="translate(900 205)">
+    <text x="0" y="0" class="note">动作库</text>
+    <g transform="translate(0 56) scale(.52)">
+      <path d="M150 25c-75 0-118 57-115 139 2 48-12 88 18 118 31 32 92 23 119 57 30 38 93 30 115-9 19-35 72-29 93-68 21-39 1-79 3-117 4-76-47-120-128-120z" fill="#fff" stroke="#111" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <path class="line" d="M203 26c-3-31 0-55 10-77"/>
+      <path class="green" d="M211-42c-35-25-68-12-70 14-2 26 35 38 70 19z"/>
+      <path class="green" d="M218-42c34-31 70-20 71 8 1 25-34 38-71 23z"/>
+      <circle cx="158" cy="149" r="9" fill="#111"/><circle cx="247" cy="148" r="9" fill="#111"/>
+      <path class="line" d="M171 204c24 20 57 19 80-2"/>
+      <path class="line" d="M75 271c-36 21-54 44-54 68"/>
+      <path class="line" d="M340 263c41 8 72 29 89 56"/>
+      <path class="line" d="M151 334c-34 37-67 55-101 51"/>
+      <path class="line" d="M266 331c28 38 61 54 99 45"/>
+    </g>
+    <text x="250" y="202" class="small">跑、跳、指向、抱笔记本</text>
+
+    <g transform="translate(0 350) scale(.48)">
+      <path d="M146 32c-70 0-112 54-109 128 2 47-13 82 16 113 28 29 83 23 112 52 29 29 84 26 113-6 26-30 72-24 93-62 18-35 1-73 2-109 2-72-49-116-128-116z" fill="#fff" stroke="#111" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <path class="line" d="M198 32c-3-28 0-52 9-72"/>
+      <path class="green" d="M205-32c-34-23-64-11-66 12-2 24 32 36 66 18z"/>
+      <path class="green" d="M212-32c31-28 66-18 67 8 1 23-31 36-67 21z"/>
+      <rect x="118" y="134" width="69" height="29" rx="12" fill="#111"/>
+      <rect x="206" y="133" width="69" height="29" rx="12" fill="#111"/>
+      <path class="thin" d="M187 149c8-5 13-5 19 0"/>
+      <path class="line" d="M82 255c-36 12-63 34-77 66"/>
+      <path class="line" d="M322 255c35 11 59 35 70 69"/>
+      <path class="line" d="M145 321c-21 44-18 76 8 86"/>
+      <path class="line" d="M265 319c24 43 22 77-6 89"/>
+    </g>
+    <text x="250" y="472" class="small">墨镜可选，不遮嫩芽</text>
+  </g>
+
+  <g transform="translate(88 770)">
+    <path class="accent" d="M0 0h185"/>
+    <text x="215" y="10" class="small">失败形态：树桩、普通人、凶墨镜、商业贴纸、复杂服饰。</text>
+  </g>
+</svg>
