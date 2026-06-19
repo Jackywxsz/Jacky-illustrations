@@ -9,7 +9,10 @@ Visual DNA:
 Pure white background. Minimalist black hand-drawn line art. Slightly wobbly pen lines. Lots of empty white space. Sparse red/orange/blue handwritten Chinese annotations. One tiny green accent only for the sprout or growth point. Clean absurd product-sketch feeling. No gradients, no shadows, no paper texture, no complex background, no commercial vector style, no PPT infographic look, no cute mascot poster, no children's illustration, no realistic UI.
 
 Recurring IP character required:
-Jacky 小芽哥, a white rounded bean/blob character in a Xiaohei-like body type for the account "Jacky无限生长". The character has one soft rounded white body, tiny simple arms, thin legs, small feet, and one unmistakable two-leaf sprout growing from the top. It may wear small black sunglasses for a relaxed confident "潇洒哥" vibe. Sunglasses are optional and should be small enough that the sprout remains the main recognition point. Make the character lively, confident, cool, and knowledge-worker-like, while still sparse and hand-drawn.
+Jacky 小芽哥, a white rounded bean/blob character in a Xiaohei-like body type for the account "Jacky无限生长". The character has one soft rounded white body, tiny simple arms, thin legs, small feet, and one unmistakable two-leaf sprout growing from the top. When sunglasses are used, they must be the same small black sunglasses: black lenses, thick black frame, and white diagonal highlights. Sunglasses may be worn on the face or pushed onto the head, but they must not hide the sprout or change style. Make the character lively, confident, cool, and knowledge-worker-like, while still sparse and hand-drawn.
+
+Hands and idea mark:
+Every action pose must show clear arms and hands. Arms emerge from the side or lower side of the bean body, not from the head, sprout, or face. If one hand is behind an object, still show a recognizable hand or gesture. If an inspiration mark is needed, draw only three short black radiating strokes near the head, raised finger, note, or sprout. Do not draw orange/blue/white colored dot trios.
 
 Theme:
 {正文配图主题}
@@ -30,10 +33,10 @@ Chinese handwritten labels:
 {标注词1} / {标注词2} / {标注词3} / {标注词4} / {可选标注词5}
 
 Color use:
-Black for main line art, character outline, sunglasses, objects, and main text. Green only for the sprout or a tiny growth point. Orange for main flow/path/arrows. Red only for key warnings/problems/results. Blue only for secondary notes or feedback/system state.
+Black for main line art, character outline, sunglasses, objects, main text, and the three-line inspiration mark. Green only for the sprout or a tiny growth point. Orange for main flow/path/arrows. Red only for key warnings/problems/results. Blue only for secondary notes or feedback/system state. Do not use colored circular dots as an inspiration symbol.
 
 Constraints:
-One image explains only one core structure. Keep the main subject around 40%-60% of the canvas. Preserve at least 35% blank white space. Use at most 5-8 short handwritten Chinese labels. Do not write a title in the top-left corner. Do not write the structure type on the image. Do not make it a formal diagram, course slide, or dense explainer. Do not turn the character into a tree stump, normal human, separate head-and-body boy, animal, robot, black blob, abstract seed, or shadow creature. Do not lose the white rounded bean/blob body, tiny arms, thin legs, head sprout, and knowledge-worker feeling. Do not make sunglasses too large, aggressive, gangster-like, oily, or dominant. Do not use colorful sticker rendering: no thick outlines, no strong blush, no glossy cartoon color. Do not copy old example compositions unless explicitly requested; invent a fresh visual metaphor for this specific article.
+One image explains only one core structure. Keep the main subject around 40%-60% of the canvas. Preserve at least 35% blank white space. Use at most 5-8 short handwritten Chinese labels. Do not write a title in the top-left corner. Do not write the structure type on the image. Do not make it a formal diagram, course slide, or dense explainer. Do not turn the character into a tree stump, normal human, separate head-and-body boy, animal, robot, black blob, abstract seed, or shadow creature. Do not lose the white rounded bean/blob body, tiny arms, visible hands, thin legs, head sprout, and knowledge-worker feeling. Do not make sunglasses too large, aggressive, gangster-like, oily, dominant, or different in style. Do not use colorful dot trios for inspiration marks. Do not use colorful sticker rendering: no thick outlines, no strong blush, no glossy cartoon color. Do not copy old example compositions unless explicitly requested; invent a fresh visual metaphor for this specific article.
 ```
 
 ## 图像编辑提示
@@ -47,5 +50,5 @@ Edit the provided image. Remove only the handwritten title "{要删除的文字}
 增强潇洒哥气质：
 
 ```text
-Regenerate this illustration with the same core meaning and simple layout, but make Jacky 小芽哥 more energetic and relaxed-confident. Keep the white rounded bean/blob body, tiny arms, thin legs, and clear two-leaf sprout. Add small black sunglasses only if it helps the "潇洒哥" vibe; do not make the sunglasses too large or aggressive. Keep it clean, sparse, hand-drawn, and white-background black-line.
+Regenerate this illustration with the same core meaning and simple layout, but make Jacky 小芽哥 more energetic and relaxed-confident. Keep the white rounded bean/blob body, visible arms and hands, thin legs, and clear two-leaf sprout. Add the same small black sunglasses only if it helps the "潇洒哥" vibe; do not make the sunglasses too large, aggressive, or different in style. If showing an idea moment, use only three short black radiating strokes, never colored dot trios. Keep it clean, sparse, hand-drawn, and white-background black-line.
 ```
