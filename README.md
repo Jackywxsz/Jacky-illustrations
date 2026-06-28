@@ -1,90 +1,94 @@
-# Jacky Growth Illustrations
+# Jacky-Illustration
 
-> 为“Jacky无限生长”定制的 Codex 正文配图 Skill。
->
-> 16:9 横版 | Jacky 小芽哥 IP | 白色小黑体型 | 头顶嫩芽 | 可选墨镜 | 纯白黑线手绘 | 少量红橙蓝中文批注
+> 中文内容配图与信息可视化生图 Skill 仓库。
 
-## 这个仓库是什么
+Jacky-Illustration 是一个面向内容创作者的生图 Skill 集合，覆盖两类需求：
 
-这是基于 Ian Xiaohei Illustrations fork 出来的定制版。目标是把原来的“小黑”固定 IP，改造成更适合“Jacky无限生长”的视觉符号：**Jacky 小芽哥**。
+1. **信息可视化配图**：文章配图、知识科普、黑板报、Excalidraw 架构图、可爱漫画信息图。
+2. **IP 型正文配图**：小黑 / Jacky 小芽哥这类固定视觉角色，把文章里的关键认知动作画成有识别度的正文插图。
 
-Jacky 小芽哥是一个白色豆豆体型、头顶嫩芽、细手细腿的知识工位角色。它可以戴小墨镜，呈现一点“潇洒哥”的松弛自信，但仍然保持白底黑线、克制手绘、正文配图的气质。
+兼容说明：统一入口目录使用 `jacky-illustration/`，保留小写 skill name，避免影响已经按旧名称安装的用户。
 
-一句话：**让 AI 不只是“配一张图”，而是把文章里的关键认知动作，画成有 Jacky 个人识别度的手绘解释图。**
+## 付费知识库与答疑群
+
+<a href="https://mp.weixin.qq.com/s/x924y3O9-nWda5OTHArKKg">
+  <img src="assets/creator-ai-course.jpg" alt="创作者 AI 课：用 AI 杠杆、代码杠杆、媒体杠杆，重塑内容创作生产体系" width="720">
+</a>
+
+我的付费知识库与答疑群欢迎加入：
+[https://mp.weixin.qq.com/s/x924y3O9-nWda5OTHArKKg](https://mp.weixin.qq.com/s/x924y3O9-nWda5OTHArKKg)
+
+期待与你的深度链接，一起用AI赋能，创作生财📈
 
 ## 当前可用 Skill
 
-真正需要安装到 Codex 的是：
+### 统一入口
+
+```text
+jacky-illustration/
+```
+
+优先安装这个目录。它会让用户先选择风格：
+
+| 风格 | 适合场景 |
+| --- | --- |
+| 信息洞察可视化（涂鸦手绘风） | AI 自媒体、知识科普、PPT 演示感 |
+| 黑板报风格 | 教学、怀旧学术、头脑风暴 |
+| 可爱漫画信息可视化 | 萌系科普、轻松教学、社交媒体传播 |
+| Excalidraw 白板架构风格 | 技术架构、系统设计、流程梳理 |
+| IP 型正文配图 | 小黑 / Jacky 小芽哥正文插图 |
+
+### IP 型子 Skill
 
 ```text
 jacky-growth-illustrations/
+ian-xiaohei-illustrations/
 ```
 
-默认产出：
+这两个目录保留为独立可用的 IP 型配图 skill：
 
-- 一篇文章的 4-8 张 shot list
-- 单张 16:9 横版正文配图
-- 白底黑线手绘风格
-- Jacky 小芽哥作为核心动作主体
-- 少量红/橙/蓝中文手写批注
-- 极少量绿色只用于头顶嫩芽或生长点
-- 墨镜可选，用于“潇洒哥”气质
-
-## 视觉符号规范
-
-角色形态说明图：
-
-```text
-jacky-growth-illustrations/assets/jacky-sprout-guy-character-spec-v1.svg
-```
-
-这个文件锁定三件事：
-
-- 白色圆润豆豆/小黑体型。
-- 头顶嫩芽是第一识别点。
-- 墨镜是可选配件，不能喧宾夺主。
+- `jacky-growth-illustrations/`：Jacky 小芽哥，白色豆豆体型、头顶嫩芽、知识工位气质。
+- `ian-xiaohei-illustrations/`：原始小黑版本，黑色小人、白底黑线、怪诞正文配图。
 
 ## 安装
 
-从仓库根目录复制 skill：
+从仓库根目录复制统一入口 skill：
 
 ```bash
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
+cp -R ./jacky-illustration "${CODEX_HOME:-$HOME/.codex}/skills/"
+```
+
+如果你只想使用 IP 型正文配图，也可以单独复制：
+
+```bash
 cp -R ./jacky-growth-illustrations "${CODEX_HOME:-$HOME/.codex}/skills/"
+cp -R ./ian-xiaohei-illustrations "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
-安装后，在 Codex 里使用：
+## 使用示例
+
+### 统一入口
 
 ```text
-Use $jacky-growth-illustrations 为这篇中文文章设计并生成 5 张 Jacky 小芽哥正文配图。
-```
-
-## 用法示例
-
-### 只做配图规划
-
-```text
-Use $jacky-growth-illustrations 先不要生图。
-请分析下面这篇文章哪里值得配图，输出 5 张左右的 shot list。
-每张图写清楚：放在哪段后、主题、核心意思、结构类型、Jacky 小芽哥在做什么、建议中文标注词。
+Use $jacky-illustration 为这篇中文文章设计配图。
+先让我选择风格；如果我选 IP 型正文配图，再让我选择小黑或 Jacky 小芽哥。
 
 <粘贴文章>
 ```
 
-### 直接生成正文配图
+### 信息可视化
 
 ```text
-Use $jacky-growth-illustrations 把下面这篇文章生成 4 张 Jacky 小芽哥正文配图。
-要求：16:9 横版、纯白背景、黑色手绘线稿、少量红橙蓝中文手写批注，白色豆豆体型和头顶嫩芽清楚；墨镜可选，但不要太大。
-
-<粘贴文章>
+Use $jacky-illustration 把这段内容做成信息洞察可视化配图。
+要求：结构清晰、中文标注少而准、适合公众号和小红书文章中插图。
 ```
 
-### 为单个概念生成一张图
+### IP 型正文配图
 
 ```text
-Use $jacky-growth-illustrations 为“真正的成长不是收藏更多方法，而是让一个动作反复发芽”生成一张正文配图。
-画面要怪诞但清爽，Jacky 小芽哥必须承担核心动作；可以有一点潇洒哥气质。
+Use $jacky-illustration 选择 Jacky 小芽哥 IP 型正文配图，为这篇文章生成 5 张 shot list。
+先不要生图，只输出每张图放在哪段后、画什么、角色做什么、中文标注词。
 ```
 
 ## 目录结构
@@ -94,34 +98,20 @@ Use $jacky-growth-illustrations 为“真正的成长不是收藏更多方法，
 ├── README.md
 ├── LICENSE
 ├── NOTICE.md
-├── examples/
-│   ├── prompts.md
-│   └── images/                  # 原 fork 示例，仅作来源对照
-├── ian-xiaohei-illustrations/   # 原始小黑版本，保留作对照
-└── jacky-growth-illustrations/
-    ├── SKILL.md
-    ├── agents/
-    │   └── openai.yaml
-    ├── assets/
-    │   └── jacky-sprout-guy-character-spec-v1.svg
-    └── references/
-        ├── style-dna.md
-        ├── jacky-sprout-ip.md
-        ├── composition-patterns.md
-        ├── prompt-template.md
-        └── qa-checklist.md
+├── jacky-illustration/          # 统一入口：四种信息可视化 + IP 型正文配图
+├── jacky-growth-illustrations/  # Jacky 小芽哥 IP 型正文配图
+├── ian-xiaohei-illustrations/   # 原始小黑 IP 型正文配图
+└── examples/
 ```
 
 ## 注意事项
 
 - 图片里的中文文字越短越稳定。
 - 每张图只讲一个核心结构，不要把文章做成说明书。
-- Jacky 小芽哥必须承担核心动作；如果去掉角色画面仍然完全成立，说明角色太装饰了。
-- 头顶嫩芽必须清楚可见，但不要把整张图做成绿色主题。
-- 墨镜是人格配件，不是必备；不要画太大、太凶、太油腻。
-- 不要画成树桩、普通人形、动物、机器人或商业贴纸。
+- IP 型配图必须让角色承担核心动作；如果去掉角色画面仍然成立，说明角色太装饰。
+- 信息图模式要优先保证结构清晰，不要为了好看牺牲可读性。
 - AI 图像模型可能出现错字、幻觉标签、风格漂移或多余标题，生成后需要检查。
 
 ## 来源与许可
 
-本仓库基于 [Ian Xiaohei Illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations) 定制，保留原始目录用于来源对照。License 见 [LICENSE](LICENSE)。
+本仓库保留 [Ian Xiaohei Illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations) 来源对照，并合并 Jacky-OPC 中原 `jacky-illustration` 的信息可视化生图能力。License 见 [LICENSE](LICENSE)。
